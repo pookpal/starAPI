@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f5ec4ee-76b3-4ca2-a583-ad49fa3997cb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dataJson/dss.json" afterPath="$PROJECT_DIR$/api/dataJson/dss.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dss.html" afterPath="$PROJECT_DIR$/api/dss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.html" afterPath="$PROJECT_DIR$/api/index.html" />
     </list>
     <ignored path="starAPI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dss.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dss.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/dataJson/dss.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4113924">
+            <state vertical-scroll-proportion="-3.3050847">
               <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.709677">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dss.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/dss.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7250996">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -77,10 +96,10 @@
         <option value="$PROJECT_DIR$/api/dataJson/tpl.json.js" />
         <option value="$PROJECT_DIR$/api/dataJson/tpl.json" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/api/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/api/dss.html" />
         <option value="$PROJECT_DIR$/api/dataJson/dss.json" />
+        <option value="$PROJECT_DIR$/api/index.html" />
+        <option value="$PROJECT_DIR$/api/dss.html" />
       </list>
     </option>
   </component>
@@ -308,14 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.516129">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -338,14 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/dss.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.709678">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/dataJson/tpl.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="223.09677">
@@ -356,8 +359,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/dataJson/dss.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4113924">
+        <state vertical-scroll-proportion="-3.3050847">
           <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.709677">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7250996">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding />
         </state>
       </provider>
