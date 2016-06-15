@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
 
 app.use('/api', express.static('api'));
 
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+app.listen(8888, function () {
+    console.log('Example app listening on port 8888!');
 });

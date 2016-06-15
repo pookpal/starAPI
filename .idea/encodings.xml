@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api/dataJson/dss.json" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>
