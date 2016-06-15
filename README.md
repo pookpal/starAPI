@@ -5,7 +5,7 @@
 ### 环境依赖
 1. nodejs
 2. npm
-3. swigger-ui
+3. swagger-ui
 4. express
 
 
@@ -28,3 +28,9 @@
 2. 所有的接口均位于 api/dataJson目录下,比如dss的接口源文件对应着dss.json
 
 3. 如果有修改接口,请写注释并且update到git
+
+
+
+
+
+
