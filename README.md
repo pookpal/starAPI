@@ -1,3 +1,3 @@
 # starAPI
 
-### api 目录为api实际目录
+### api 鐩綍涓篴pi瀹為檯鐩綍
