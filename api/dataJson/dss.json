@@ -72,7 +72,7 @@
           },
           "parent_id":{
             "type": "integer",
-            "description":"当前菜单父级的自身主键id",
+            "description":"当前菜单父级的自身主键id, 0代表根级",
             "required":true
           },
           "name": {
