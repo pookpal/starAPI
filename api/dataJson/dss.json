@@ -65,12 +65,12 @@
       "reportMenu": {
         "type": "object",
         "properties": {
-          "depth_pk":{
+          "id":{
               "type": "integer",
               "description":"当前菜单的自身主键id",
               "required":true
           },
-          "depth_fk":{
+          "parent_id":{
             "type": "integer",
             "description":"当前菜单父级的自身主键id",
             "required":true
@@ -78,6 +78,11 @@
           "name": {
             "type": "string",
             "description":"菜单名称",
+            "required":true
+          },
+          "level": {
+            "type": "integer",
+            "description":"层级，0代表根，1,2,3...",
             "required":true
           },
           "rank": {
