@@ -176,8 +176,6 @@
           },
           "reportClass":{
             "type": "object",
-            "description": "报表已绑定的菜单对象",
-            "required":false,
             "properties":{
               "name":{
                 "type": "string",
