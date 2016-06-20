@@ -59,6 +59,28 @@
       }
     },
 
+    "role/getBindReportByMenuId/{id}":{
+
+      "get":{
+        "tags":[
+          "权限管理"
+        ],
+        "summary":"获取菜单绑定的报表",
+        "description":"获取菜单绑定的报表",
+        "response": {
+          "200":{
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/reportVo"
+              }
+          }
+        }
+      }
+
+    },
+
     "role/updateReportMenus": {
       "get": {
         "tags": [
@@ -203,6 +225,25 @@
                 "required":true
               }
             }
+          },
+
+          "report":{
+            "type": "object",
+            "properties":{
+              "id":{
+                "type":"integer",
+                "description":"报表的id"
+              },
+              "display":{
+                "type":"string",
+                "description":"报表的名称"
+              },
+              "name":{
+                "type":"string",
+                "description":"报表的名称"
+              }
+            }
+
           }
         }
       }
