@@ -177,7 +177,7 @@
           "reportClass":{
             "type": "object",
             "properties":{
-              "name":{
+              "display":{
                 "type": "string",
                 "description": "菜单名称",
                 "required":true
