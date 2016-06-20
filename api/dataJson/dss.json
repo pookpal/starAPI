@@ -36,6 +36,54 @@
     },
 
 
+    "role/getAllReports": {
+      "get":{
+        "tags":[
+          "权限管理"
+        ],
+        "summary":"获取所有的报表",
+        "responses":{
+          "200":{
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/reportVo"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid Order"
+          }
+        }
+      }
+    },
+
+    "role/updateReportMenus": {
+      "get": {
+        "tags": [
+          "权限管理"
+        ],
+        "summary":"更新固定报表的菜单",
+        "description": "更新当前用户设定的固定报表的菜单",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/reportMenu"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid Order"
+          }
+        }
+      }
+    },
+
+
 
     "role/getAnalysisMenus": {
       "get": {
@@ -86,6 +134,73 @@
             "required":true
           }
 
+        }
+      },
+      "reportVo": {
+        "type":"object",
+        "properties":{
+          "id":{
+            "type": "integer",
+            "description": "主键id",
+            "required":true
+          },
+          "displayName":{
+            "type": "string",
+            "description": "报表名称",
+            "required":true
+          },
+          "displayOrder":{
+            "type": "integer",
+            "description": "显示的级别",
+            "required":false
+          },
+          "name":{
+            "type": "string",
+            "description": "英文名称索引",
+            "required":true
+          },
+          "status":{
+            "type": "string",
+            "description": "状态",
+            "required":true
+          },
+          "vendor":{
+            "type": "string",
+            "description": "报表类别,润乾or...",
+            "required":true
+          },
+          "reportClass":{
+            "type": "object",
+            "description": "报表已绑定的菜单对象",
+            "required":false,
+            "properties":{
+              "name":{
+                "type": "string",
+                "description": "菜单名称",
+                "required":true
+              },
+              "id":{
+                "type": "string",
+                "description": "菜单id",
+                "required":true
+              },
+              "displayOrder":{
+                "type": "integer",
+                "description": "显示顺序",
+                "required":false
+              },
+              "name":{
+                "type": "string",
+                "description": "菜单名称",
+                "required":true
+              },
+              "status":{
+                "type": "string",
+                "description": "状态",
+                "required":true
+              }
+            }
+          }
         }
       }
   }
